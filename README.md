@@ -1,8 +1,15 @@
-# React + Vite
+# WebStore
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenido a WebStore! Esta es una galería de las páginas web creadas por Jesús Maquera. Aquí encontrarás una colección de proyectos desarrollados con herramientas como React, Vite y Tailwind CSS.
 
-Currently, two official plugins are available:
+## Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+WebStore es un escaparate virtual que muestra los proyectos web desarrollados por Jesús Maquera. Cada proyecto exhibido en WebStore es una muestra de las habilidades y experiencia en el desarrollo web de Jesús, utilizando tecnologías modernas como React para la creación de interfaces de usuario dinámicas y receptivas, Vite como herramienta de compilación rápida y Tailwind CSS para estilos rápidos y personalizables.
+
+
+## Tecnologías Utilizadas
+
+- React
+- Vite
+- Tailwind CSS
+

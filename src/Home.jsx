@@ -1,62 +1,39 @@
-import { BtnContact } from "./components/BtnContact";
+import mockup from './images/mockup.png';
 
-
-import createIcon from './assets/create.svg'
-import designIcon from './assets/design.svg'
-import webDevIcon from './assets/webDeveloper.svg'
-import homeImage from './images/homeImage2.png'
 
 export const Home = () => {
+
+    
+
     return (
         <>
-
-            <section className=" px-4 py-40 text-white mx-auto md:p-20  w-full  text-center
-            bg-gradient-to-b from-slate-900 from-10% via-sky-500 via-90% to-sky-300-to-30%
-            " >
-                <div className="max-w-screen-lg mx-auto">
-                    <div className="grid  grid-cols-1 md:grid-cols-2">
-                        <div className=" text-center md:text-start">
-
-                            <h1 id="home" className="text-4xl font-extrabold uppercase  " > Consigue tu 
-                            <span className="text-sky-300"> pagina web </span> 
-                             personalizada </h1>
-                            <p className="text-lg my-10 ">¿Necesitas una página web personalizada? ¡Estás en el lugar correcto! Transformamos
-                                tu visión digital en realidad con diseños exclusivos y funcionalidad avanzada. Creamos sitios web
-                                que capturan la esencia de tu marca y elevan la experiencia del usuario.</p>
-
+            <section id='home' className={"bg-[url('./images/banner.jpg')] w-full  h-screen    md:bg-contain bg-center"} >
+                <div className='grid lg:grid-cols-2 h-full  w-full  d:max-w-screen-sm xl:max-w-screen-xl m-auto px-6  '>
+                    <div className=' flex  flex-col justify-center  gap-5 md:gap-7 xl:gap-10 w-full px-3  '>
+                        <h1 className='text-3xl md:text-4xl xl:text-6xl 
+                        text-center md:text-start  uppercase font-extrabold'>Consigue tu <strong className='text-emerald-400'>pagina web</strong> personalizada</h1>
+                        <p className=' text-sm md:text-lg xl:text-xl
+                         text-gray-400 text-center md:text-start font-semibold'>
+                            Bienvenido a nuestro servicio de desarrollo web, donde creamos soluciones digitales personalizadas que destacan tu negocio. 
+                            nuestro objetivo es proporcionar una presencia en línea que te diferencie y atraiga a tu audiencia. ¡Comienza hoy y descubre cómo podemos
+                             ayudarte a llevar tu negocio al siguiente nivel!</p>
+                        <div className='w-full text-center mt-5 lg:text-start'>
+                            <a  href='#contact' className='  bg-emerald-400 hover:shadow-lg hover:scale-100 scale-95 hover:shadow-emerald-600 transition text-black 
+                            font-semibold text-md md:text-lg xl:text-2xl px-10 py-5'>Contactame</a>
                         </div>
-                        <div className="w-full  ml-auto">
-                            
-                            <img className="drop-shadow-2xl  " 
-                            src={homeImage} alt="" />
-                        </div>
-
                     </div>
 
-                    <div className="mb-10">
-                        <h3 className="md:text-start text-center text-xl font-bold mt-5 uppercase mb-5">Servicios:</h3>
-                        <div className="grid gap-20  md:grid-cols-2">
-                            <ul className="flex  font-semibold flex-col gap-5">
-                                <li className="mx-auto md:mx-0 text-center inline-flex gap-2">
-                                <img  src={createIcon} alt="" />
-                                    Creación de Páginas Web Personalizadas</li>
-                                <li className="mx-auto md:mx-0 inline-flex gap-2">
-                                    <img src={designIcon} alt="" />
-                                    Diseño Adaptable y Atractivo
-                                </li>
-                                <li className="mx-auto md:mx-0 inline-flex gap-2">
-                                    <img src={webDevIcon} alt="" />
-                                    Desarrollo de Aplicaciones Web
-                                </li>
-                            </ul>
-                            <div className=" flex items-center justify-center h-full ">
-                            <BtnContact />
-                        </div>
-                        </div>
-                        
+                    <div className=' lg:flex items-center hidden'>
+                     <img className='w-full ' src={mockup} alt="" />
                     </div>
+                    
+                    
+                    
                 </div>
+                
+
             </section>
+            
         </>
     )
 }

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Inicio",
+        "path": "#home"
+    },
+    {
+        "name": "Servicios",
+        "path": "#services"
+    },
+    {
+        "name": "Proyectos",
+        "path": "#products"
+    },
+    {
+        "name": "Contacto",
+        "path": "#contact"
+    },
+    {
+        "footer":"footer",
+        "path": "#footer"
+    }
+]
